@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mybb last topics\n"
+"POT-Creation-Date: 2013-01-11 03:50+0330\n"
+"PO-Revision-Date: 2013-01-11 03:54+0330\n"
+"Last-Translator: \n"
+"Language-Team: iwordpress.ir <mahdi@progpars.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wp-content\\plugins\\mybb-last-topics\n"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:25
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:26
+msgid "Error communicating with the database"
+msgstr "خطا در برقراری با پایگاه داده"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:36
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:77
+msgid "Recent Forum Posts"
+msgstr "آخرین ارسال های انجمن"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:42
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:86
+msgid "Title Latest Posts Forum"
+msgstr "عنوان آخرین ارسال های انجمن"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:43
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:85
+msgid "Reply"
+msgstr "پاسخ"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:44
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:84
+msgid "Visit"
+msgstr "بازدید"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:45
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:83
+msgid "Last Post"
+msgstr "آخرین ارسال"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:122
+msgid " Latest Posts Forum mybb"
+msgstr "آخرین ارسال های انجمن ساز مای بی بی"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/mybblasttopics.php:122
+msgid "MYBB"
+msgstr "مای بی بی"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:26
+msgid "Settings saved"
+msgstr "ذخیره تنظیمات"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:33
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:39
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:45
+msgid "forum Address"
+msgstr "آدرس انجمن"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:54
+msgid "community information database"
+msgstr "اطلاعات دیتابیس انجمن "
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:60
+msgid "server name"
+msgstr "نام سرور"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:69
+msgid "database name"
+msgstr "نام دیتابیس"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:78
+msgid "database username"
+msgstr "نام کاربری دیتابیس"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:87
+msgid "database password"
+msgstr "کلمه عبور دیتابیس"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:96
+msgid "prefix tables"
+msgstr "پیشوند جداول"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:105
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:111
+msgid "display topics"
+msgstr "تعداد نمایش"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:115
+msgid "item"
+msgstr "مورد"
+
+#: C:\wamp\www\wp-content\plugins\mybb-last-topics/panel_mybblasttopics.php:121
+msgid "save"
+msgstr "ذخیره"
