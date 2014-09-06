@@ -20,7 +20,7 @@ Features:
 * Setting database config on wordpress dashboard
 * Setting for showing latest posts on dashboard
 
-Details for Persian Speakers => <a href="http://www.progpars.com/" title="">طراحی وب سایت</a>
+Details for Persian Speakers : <a href="http://www.progpars.com/" title="">طراحی وب سایت</a>
 
 
 
