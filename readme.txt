@@ -1,5 +1,5 @@
 ﻿=== mybb Last Topics ===
-Contributors: progpars
+Contributors: progpars,yaibait
 Donate link: http://www.progpars.com/
 Tags: mybb,topic,forum,lasttopics,topics,forums
 Requires at least: 3.0.1
@@ -19,6 +19,7 @@ Features:
 * View Title Latest Posts Forum and latest reply and number visit and view member name on latest post
 * Setting database config on wordpress dashboard
 * Setting for showing latest posts on dashboard
+* Widget show last post
 
 Details for Persian Speakers => <a href="http://www.progpars.com/" rel="follow">طراحی وب سایت</a>
 
@@ -44,5 +45,6 @@ template rtl direction : mybblasttopics_css_rtl.css
 
 == Screenshots ==
 1. Screen shot (screenshot-1.png) in Setting page
-2. Screen shot (screenshot-2.png) in preview
+2. Screen shot (screenshot-2.png) in Preview
+3. Screen shot (screenshot-3.png) in Widget
 
