@@ -1,4 +1,4 @@
-=== mybb Last Topics ===
+﻿=== mybb Last Topics ===
 Contributors: progpars
 Donate link: http://progpars.com/
 Tags: mybb,topic,forum,lasttopics,topics,forums
@@ -20,9 +20,7 @@ Features:
 * Setting database config on wordpress dashboard
 * Setting for showing latest posts on dashboard
 
-Send email for Translation files: mahdi[at]progpars[dot].com
-for translate, please open langs/default.po by Poedit and translate strings.
- 
+Details for Persian Speakers => <a href="http://www.progpars.com/" title="">طراحی وب سایت</a>
 
 
 
