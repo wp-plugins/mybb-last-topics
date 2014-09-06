@@ -18,7 +18,7 @@ img.titleicon{
     float: left;
     font-family: Tahoma;
     font-size: 12px;
-    width: 620px;
+    width: 100%;
 }
 .ForumLastTopic .Head {
     background: url("images/bg-head.png") repeat-x scroll 0 0 #EEEEEE;

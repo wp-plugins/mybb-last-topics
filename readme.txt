@@ -1,12 +1,12 @@
 ﻿=== mybb Last Topics ===
 Contributors: progpars
-Donate link: http://progpars.com/
+Donate link: http://www.progpars.com/
 Tags: mybb,topic,forum,lasttopics,topics,forums
 Requires at least: 3.0.1
-Tested up to: 3.4
-Stable tag: 1.0
-License: iwordpress.ir
-License URI: http://www.iwordpress.ir
+Tested up to: 4.0
+Stable tag: 1.0,2.0
+License: progpars.com
+License URI: http://www.progpars.com
 
 Show the last posts of mybb forum 
 

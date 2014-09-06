@@ -9,7 +9,7 @@ Author URI: http://www.progpars.com
 License: iwordpress.ir
 */
 define( 'MYPLUGINNAME_PATH', plugin_dir_path(__FILE__) );
-
+require_once('mybbwidget.php');
 load_plugin_textdomain('mybb','wp-content/plugins/mybb-last-topics/langs');
 //require mybb_config.php
 if(file_exists(MYPLUGINNAME_PATH .'/mybb_config.php')){
@@ -125,4 +125,45 @@ function admin_options_lasttopics()
 	
 }
 add_action('admin_menu', 'admin_options_lasttopics');
+
+
+function mybb_forum_last_wg(){
+		//global variable
+	global $mysql_connect,$wpdb,$mybb_mysqlquery,$row,$plugin_name,$mybburl,$dbhost,$dbname,$dbuser,$dbpass,$dbprifix,$limit,$tid;
+	
+	//database connect and query
+	$mysql_connect = mysql_connect($dbhost,$dbuser,$dbpass) or die("" . __('Error communicating with the database', 'mybb') . "");
+	mysql_select_db($dbname) or die("" . __('Error communicating with the database', 'mybb') . "");
+	mysql_query("SET NAMES utf8");
+
+		echo '<!doctype html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/'. basename(dirname(__FILE__)) .'/mybblasttopics_css_ltr.css" />
+	</head>
+	<body>
+	<div class="ForumLastTopic">
+		  <div id="MTForumBlock">
+		   <table>
+						<tbody>';
+	$mybb_mysqlquery = mysql_query("SELECT tid,subject,views FROM ".$dbprifix."threads ORDER BY lastpost DESC LIMIT $limit");
+	
+	while($row = mysql_fetch_array($mybb_mysqlquery)) {
+	$tid = $row['tid'];
+	echo "
+			<tr>
+				<td class=\"col1\"><img class=\"titleicon\" src='" . get_bloginfo('wpurl') . '/wp-content/plugins/'. basename(dirname(__FILE__)) ."/images/topic.png' /><a class=\"titlelinks\" href=\"".$mybburl."/showthread.php?tid=".$row['tid']."\" target=\"_blank\" >".$row['subject']."</a></td>
+				<td class=\"col3\">".$row['views']."</td>
+			</tr>";
+	}
+
+
+	echo "
+		</tbody>
+		  </table>
+		</div>
+	</div>
+	</body>
+	</html>";
+}
 ?>
