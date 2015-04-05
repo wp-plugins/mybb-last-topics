@@ -23,7 +23,7 @@ Features:
 
 Details for Persian Speakers => <a href="http://www.progpars.com/" rel="follow">طراحی وب سایت</a>
 <br />
-<a href="http://www.progpars.com/" rel="follow">مشاوره حقوقی</a>
+<a href="http://www.lawpars.ir/" rel="follow">مشاوره حقوقی</a>
 
 
 
